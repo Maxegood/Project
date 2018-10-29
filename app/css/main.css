@@ -286,3 +286,7 @@ nav ul li:first-child a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.about-us-items-item img {
+  background: #000;
+}
