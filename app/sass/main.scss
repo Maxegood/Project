@@ -28,6 +28,7 @@ $text-color: #333;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+			transition: 0.5s;
 }
 img {
 	width: 100%;
@@ -94,6 +95,9 @@ nav {
 				text-transform: uppercase;
 				font-family: $main-font;
 				font-size: 14px;
+				&:hover {
+				color: #fbe389;
+				}
 			}
 		}
 	}
@@ -136,6 +140,10 @@ nav ul li:first-child a {
 	height: 37px;
 	border: 3px solid #fff;
 	text-align: center;
+	& a:hover {
+		background: #fff;
+		color: #333;
+	}
 	a {
 		color: #fff;
 		font-size: 14px;
@@ -144,7 +152,7 @@ nav ul li:first-child a {
 		font-family: $main-font;
 		font-weight: bold;
 		display: block;
-		padding: 6px;
+		padding: 7px;
 	}
 }
 .header-bot {
@@ -226,7 +234,4 @@ nav ul li:first-child a {
 			display:flex;
 			justify-content: space-between;
 		}
-}
-.about-us-items-item img {
-	background: #000;
 }

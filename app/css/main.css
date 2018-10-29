@@ -27,6 +27,9 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 img {
@@ -127,6 +130,10 @@ nav ul li a {
   font-size: 14px;
 }
 
+nav ul li a:hover {
+  color: #fbe389;
+}
+
 nav ul li:first-child a {
   border-bottom: 2px solid #fbe389;
   padding-bottom: 7px;
@@ -172,6 +179,11 @@ nav ul li:first-child a {
   text-align: center;
 }
 
+.header-title-button a:hover {
+  background: #fff;
+  color: #333;
+}
+
 .header-title-button a {
   color: #fff;
   font-size: 14px;
@@ -180,7 +192,7 @@ nav ul li:first-child a {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   display: block;
-  padding: 6px;
+  padding: 7px;
 }
 
 .header-bot {
@@ -285,8 +297,4 @@ nav ul li:first-child a {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.about-us-items-item img {
-  background: #000;
 }
