@@ -28,7 +28,7 @@ $text-color: #333;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-			transition: 0.5s;
+	transition: 0.5s;
 }
 img {
 	width: 100%;
@@ -96,7 +96,7 @@ nav {
 				font-family: $main-font;
 				font-size: 14px;
 				&:hover {
-				color: #fbe389;
+					color: #fbe389;
 				}
 			}
 		}
@@ -137,7 +137,6 @@ nav ul li:first-child a {
 	margin: 0 auto;
 	margin-top: 50px;
 	width: 156px;
-	height: 40px;
 	border: 3px solid #fff;
 	text-align: center;
 	& a:hover {
@@ -152,7 +151,7 @@ nav ul li:first-child a {
 		font-family: $main-font;
 		font-weight: bold;
 		display: block;
-		padding: 7px;
+		padding: 8px;
 	}
 }
 .header-bot {
@@ -224,15 +223,15 @@ nav ul li:first-child a {
 }
 .about-us {
 	text-align: center;
-		p{
-			font-family: $main-font-content;
-			font-size: 15px;
-			color: #333;
-			line-height: 22px;
-		}
-		.about-us-items {
-			display:flex;
-			justify-content: space-between;
-			margin-top: 99px;
-		}
+	p{
+		font-family: $main-font-content;
+		font-size: 15px;
+		color: #333;
+		line-height: 22px;
+	}
+	.about-us-items {
+		display:flex;
+		justify-content: space-between;
+		margin-top: 99px;
+	}
 }
