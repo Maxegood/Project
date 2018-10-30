@@ -48,7 +48,7 @@ header {
 	background-position: top center;
 	position: relative;
 	width: 100%;
-	height: 1020px;
+	height: 1000px;
 
 
 	.header-bg {
@@ -66,7 +66,7 @@ header {
 	margin: 0 auto;
 }
 .header-top-line {
-	margin: 29px 0 0 52px;
+	margin: 21px 0 0 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -83,7 +83,7 @@ nav {
 		display: flex;
 		li {
 			list-style-type: none;
-			padding-right: 55px;
+			padding-right: 53px;
 			text-align: center;
 			align-self: center;
 			&:last-child {
@@ -109,7 +109,7 @@ nav ul li:first-child a {
 }
 .header-title {
 	margin: 0 auto;
-	margin-top: 162px;
+	margin-top: 153px;
 	text-align: center;
 }
 .header-title-one {
@@ -131,13 +131,13 @@ nav ul li:first-child a {
 	height: 3px;
 	background: #fff;
 	width: 60px;
-	margin-top: 73px;
+	margin-top: 57px;
 }
 .header-title-button {
 	margin: 0 auto;
 	margin-top: 50px;
 	width: 156px;
-	height: 37px;
+	height: 40px;
 	border: 3px solid #fff;
 	text-align: center;
 	& a:hover {
@@ -156,7 +156,7 @@ nav ul li:first-child a {
 	}
 }
 .header-bot {
-	margin-top: 160px;
+	margin-top: 157px;
 	ul {
 		display: flex;
 		justify-content: space-between;
@@ -171,12 +171,12 @@ nav ul li:first-child a {
 				color: #fff;
 				font-family: $main-font;
 				text-transform: uppercase;
-				font-size: 12px;
+				font-size: 17px;
 				span {
 					font-family: $main-font;
 					font-weight: bold;
 					margin-right: 5px;
-					font-size: 16px;
+					font-size: 23px;
 				}
 			}
 
@@ -198,8 +198,9 @@ nav ul li:first-child a {
 }
 .main-title {
 	margin: 0 auto;
-	margin-top: 92px;
+	margin-top: 86px;
 	text-align: center;
+	margin-bottom: 44px;
 }
 .main-title-small {
 	font-family: "Kaushan_Script";
@@ -212,15 +213,14 @@ nav ul li:first-child a {
 	color: $text-color;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 24px;
+	margin-top: 9px;
 }
 .main-title-big-line {
 	margin: 0 auto;
 	height: 3px;
 	width: 58px;
 	background: #f38181;
-	margin-top: 40px;
-	margin-bottom: 45px;
+	margin-top: 33px;
 }
 .about-us {
 	text-align: center;
@@ -228,10 +228,11 @@ nav ul li:first-child a {
 			font-family: $main-font-content;
 			font-size: 15px;
 			color: #333;
-			margin-bottom: 104px;
+			line-height: 22px;
 		}
 		.about-us-items {
 			display:flex;
 			justify-content: space-between;
+			margin-top: 99px;
 		}
 }
