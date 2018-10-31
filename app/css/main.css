@@ -356,6 +356,7 @@ nav ul li:first-child a {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .services ul li {
@@ -374,7 +375,7 @@ nav ul li:first-child a {
 }
 
 .services ul li .services-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 14px;
   width: 317px;
@@ -390,6 +391,16 @@ nav ul li:first-child a {
   font-size: 14px;
   margin-top: 9px;
   line-height: 20px;
+}
+
+.services ul li:nth-child(3n+4):before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #e4e4e5;
+  position: absolute;
+  left: 0;
+  margin-top: -42px;
 }
 
 .unique-design {
