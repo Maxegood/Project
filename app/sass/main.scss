@@ -235,3 +235,34 @@ nav ul li:first-child a {
 		margin-top: 99px;
 	}
 }
+.number-bg {
+	background: #95e1d4;
+	width: 100%;
+	margin-top: 97px;
+		ul {
+			display: flex;
+			justify-content: space-between;
+			text-align: center;
+				li {
+					color: #fff;
+					width: 25%;
+					align-self: center;
+					padding: 75px 0;
+					border-left: 1px solid #fff;
+
+					&:last-child {
+						border-right: 1px solid #fff;
+					}
+						span {
+							font-family: $main-font;
+							font-size: 60px;
+							font-weight: bold;
+						}
+						p {
+							font-family: $main-font;
+							font-size: 14px;
+							padding-top: 8px;
+						}
+				}
+		}
+}

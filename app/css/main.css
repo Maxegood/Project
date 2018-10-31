@@ -299,6 +299,46 @@ nav ul li:first-child a {
   margin-top: 99px;
 }
 
-.about-us .about-us-items .about-us-items-item img:hover {
-  background: #fff;
+.number-bg {
+  background: #95e1d4;
+  width: 100%;
+  margin-top: 97px;
+}
+
+.number-bg ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.number-bg ul li {
+  color: #fff;
+  width: 25%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  padding: 75px 0;
+  border-left: 1px solid #fff;
+}
+
+.number-bg ul li:last-child {
+  border-right: 1px solid #fff;
+}
+
+.number-bg ul li span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.number-bg ul li p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding-top: 8px;
 }
