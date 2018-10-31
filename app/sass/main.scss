@@ -239,30 +239,109 @@ nav ul li:first-child a {
 	background: #95e1d4;
 	width: 100%;
 	margin-top: 97px;
-		ul {
-			display: flex;
-			justify-content: space-between;
-			text-align: center;
-				li {
-					color: #fff;
-					width: 25%;
-					align-self: center;
-					padding: 75px 0;
-					border-left: 1px solid #fff;
+	ul {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		li {
+			color: #fff;
+			width: 25%;
+			align-self: center;
+			padding: 75px 0;
+			border-left: 1px solid #fff;
 
-					&:last-child {
-						border-right: 1px solid #fff;
-					}
-						span {
-							font-family: $main-font;
-							font-size: 60px;
-							font-weight: bold;
-						}
-						p {
-							font-family: $main-font;
-							font-size: 14px;
-							padding-top: 8px;
-						}
-				}
+			&:last-child {
+				border-right: 1px solid #fff;
+			}
+			span {
+				font-family: $main-font;
+				font-size: 60px;
+				font-weight: bold;
+			}
+			p {
+				font-family: $main-font;
+				font-size: 14px;
+				padding-top: 8px;
+			}
 		}
+	}
+}
+.services {
+	ul {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+		li {
+			display: flex;	
+			margin-bottom: 90px;
+			text-align: left;
+			img {
+				width: 30px;
+				height: 30px;
+				margin-right: 23px;
+			}
+			.services-text {
+				font-family: $main-font;
+				color: $text-color;
+				font-size: 14px;
+				width: 317px;
+				strong {
+					text-transform: uppercase;
+				}
+				p {
+					font-family: "Roboro", sans-serif;
+					color: #969696;
+					font-size: 14px;
+					margin-top: 9px;
+					line-height: 20px;
+
+				}
+			}
+		}
+	}
+}
+.unique-design {
+	height: 900px;
+	background-image: url(../img/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+
+	.unique-design-bg {
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255,0.8);
+		left: 0;
+		top: 0;
+		z-index: 0;
+		position: absolute;
+	}
+}
+.unique-design-img {
+	width: 535px;
+	margin: 0 auto;
+	position: relative;
+		&:after {
+		content: "";
+		position: absolute;
+		bottom: -90px;
+		background-image: url(../img/phone-i.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		width: 292px;
+		height: 498px;
+		right: -165px;
+	}
+}
+.service-text {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+    font-size: 15px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 99px;
 }
