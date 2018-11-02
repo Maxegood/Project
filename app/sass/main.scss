@@ -355,3 +355,18 @@ nav ul li:first-child a {
     line-height: 22px;
     margin-bottom: 99px;
 }
+.service-block {
+	display: flex;
+}
+.service-block img {
+    width: 40%;
+    height: 100%;
+    margin-right: 30px;
+}
+.service-block-img {
+	width: 45%;
+}
+.service-block-right {
+	display: flex;
+	flex-direction: column;
+}

@@ -451,3 +451,36 @@ nav ul li:first-child a {
   line-height: 22px;
   margin-bottom: 99px;
 }
+
+.service-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-block img {
+  width: 40%;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.service-block-img {
+  width: 45%;
+}
+
+.service-block-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
