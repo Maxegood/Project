@@ -333,7 +333,7 @@ nav ul li:first-child a {
 	width: 535px;
 	margin: 0 auto;
 	position: relative;
-		&:after {
+	&:after {
 		content: "";
 		position: absolute;
 		bottom: -90px;
@@ -350,23 +350,214 @@ nav ul li:first-child a {
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
-    font-size: 15px;
-    color: #333;
-    line-height: 22px;
-    margin-bottom: 99px;
+	font-size: 15px;
+	color: #333;
+	line-height: 22px;
+	margin-bottom: 99px;
 }
 .service-block {
 	display: flex;
 }
 .service-block img {
-    width: 40%;
-    height: 100%;
-    margin-right: 30px;
+	width: 40%;
+	height: 100%;
+	margin-right: 30px;
 }
 .service-block-img {
-	width: 45%;
+
 }
 .service-block-right {
-	display: flex;
-	flex-direction: column;
+	width: 100%;
+	ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		align-content: center;
+		font-family: "Roboto", sans-serif;
+
+		li {
+			align-self: center;
+			width: 100%;
+			border: 1px solid #ececec;
+			margin-bottom: 10px;
+
+			.service-block-right-li-title {
+				font-weight: bold;
+				border-bottom: 1px solid #ececec;
+				padding: 10px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				text-transform: uppercase;
+				span {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					&:before {
+						content: "";
+						display: inline-block;
+						background-image: url(../img/hill.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+						background-position: center;
+						width: 30px;
+						height: 30px;
+						top: 5px;
+						margin-right: 10px;
+					}
+				}
+			}
+			.service-block-right-li-text {
+				padding: 10px;
+				width: 100%;
+				height: 130px;
+				font-family: "Roboto", sans-serif;
+				font-size: 14px;
+				color: #c7c7c7;
+				font-style: italic;
+				line-height: 20px;
+				overflow: scroll;
+				overflow-x: hidden;
+				margin-bottom: 10px;
+
+			}
+			img {
+				width: 30px;
+				height: 15px;
+				margin-right: 15px;
+				display: inline;
+			}
+		}
+	}
 }
+.service-block-right ul li:nth-child(2) span:before {
+	content: "";
+	display: inline-block;
+	background-image: url(../img/equalaizer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	margin-right: 10px;
+}
+.service-block-right ul li:nth-child(3) span:before {
+	content: "";
+	display: inline-block;
+	background-image: url(../img/bulseeye.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	margin-right: 10px;
+}
+.first-feedback {
+	width: 100%;
+	padding: 50px 0;
+	margin: 20px 0;
+	background: #f8f8f8;
+	margin-top: 120px;
+}
+.first-feedback-items{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	p {
+		text-align: left;
+		font-family: $main-font-content;
+		color: #adadad;
+		line-height: 30px;
+		margin-left: 60px;
+	}
+	span {
+		display: block;
+		font-family: "Kaushan_Script";
+		color: #000;
+		display: flex;
+		align-items: center;
+		font-size: 20px;
+		&:before {
+			content: "";
+			height: 3px;
+			background: #ff7a7a;
+			width: 45px;
+			margin-right: 10px;
+
+		}
+	}
+}
+.first-feedback-items-arrow {
+	width: 12px;
+	height: 20px;
+	margin-right: 50px;
+}
+.first-feedback-items-image {
+	border: 2px solid #78e4d4;
+	padding: 15px;
+	width: 100px;
+	height: 100px;
+}
+.first-feedback-items-arrow2 {
+	width: 12px;
+	height: 20px;
+	margin-left: 50px;
+}
+.we_are-items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+		.we_are-item {
+			width: 32%;
+			height: 400px;
+			position: relative;
+			// display: flex;
+				img {
+					min-height: 100%;
+					min-width: 100%;
+					
+				}
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
