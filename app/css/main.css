@@ -725,13 +725,98 @@ nav ul li:first-child a {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
 }
 
-.we_are-items .we_are-item {
-  width: 32%;
-  height: 400px;
-  position: relative;
+.we_are-items .we_are-item p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.we_are-items .we_are-item p span {
+  font-size: 14px;
+  color: #c3c3c3;
+  margin-top: 5px;
+  display: block;
+  text-transform: none;
+  font-style: italic;
+}
+
+.we_are-items .we_are-item-bg {
+  width: 380px;
+  height: 470px;
+  background-image: url(../img/man2.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -110px 0;
+}
+
+.we_are-items .we_are-item:nth-child(2) .we_are-item-bg {
+  width: 380px;
+  height: 470px;
+  background-image: url(../img/man3.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -62px 0;
+}
+
+.we_are-items .we_are-item:nth-child(3) .we_are-item-bg {
+  width: 380px;
+  height: 470px;
+  background-image: url(../img/man4.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -120px 0;
+}
+
+.container-partners {
+  width: 100%;
+  margin-top: 125px;
+  background-color: #f8f8f8;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners a {
+  margin-right: 20px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.some_work-items-container {
+  width: 50%;
+}
+
+.some_work-items-container .some_work-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.some_work-items-container .some_work-items .some_work-item {
+  width: 100%;
+}
+
+.some_work-items-container .some_work-items .some_work-item img {
+  width: 48%;
 }
