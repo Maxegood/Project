@@ -604,21 +604,28 @@ nav ul li:first-child a {
 	}
 }
 .some_work-items-container {
-	width: 50%;
+	width: 100%;
 	.some_work-items {	
 		display: flex;
 		flex-wrap: wrap;
+		// width: 50%;
 		.some_work-item {
-			width: 100%;
+			width: 25%;
+			line-height: 0;
 			img {
-				width: 48%;
+				width: 100%;
+				height: 400px;
 			}
 		}
 	}
 }
+.some_work-item-hight {
 
-
-
+}
+.some_work-items .some_work-item:nth-child(3) img {
+	height: 200%;
+	position: relative;
+}
 
 
 
