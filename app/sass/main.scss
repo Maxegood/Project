@@ -766,13 +766,15 @@ nav ul li:first-child a {
 }
 .happy_clients-items {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
-
-		.happy_clients-item{
-			width: 50%;
-			margin-top: 30px;
+	align-items: center;
+		.happy_clients-item {
 			display: flex;
+			width: 40%;
+			margin-right: 65px;
+			margin-bottom: 90px;
+			
 		}
 			img {
 				border-radius: 500px;
