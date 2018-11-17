@@ -756,31 +756,31 @@ nav ul li:first-child a {
 	position: relative;
 }
 .happy_clients_bg {
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.8);
-    left: 0;
-    top: 0;
-    z-index: 0;
-    position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	left: 0;
+	top: 0;
+	z-index: 0;
+	position: absolute;
 }
 .happy_clients-items {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
-		.happy_clients-item {
-			display: flex;
-			width: 40%;
-			margin-right: 65px;
-			margin-bottom: 90px;
-			
-		}
-			img {
-				width: 120px;
-				height: 120px;
-				margin-right: 20px;
-			}
+	.happy_clients-item {
+		display: flex;
+		width: 40%;
+		margin-right: 65px;
+		margin-bottom: 90px;
+
+	}
+	img {
+		width: 120px;
+		height: 120px;
+		margin-right: 20px;
+	}
 }
 .happy_clients-item-content {
 	display: flex;
@@ -804,13 +804,63 @@ nav ul li:first-child a {
 }
 .happy_clients-item-content-line {
 	height: 3px;
-    width: 58px;
-    background: rgb(243, 129, 129);
-    margin-bottom: 20px;
+	width: 58px;
+	background: rgb(243, 129, 129);
+	margin-bottom: 20px;
 }
+.latest-blog-items {
+	display: flex;
+	justify-content: space-between;
 
-
-
+}
+.latest-blog-item1 {
+	background-image: url(../img/blog.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width: 385px;
+	height: 240px;
+	position: relative;
+	.latest-blog-item-block {
+		width: 60px;
+		height: 72px;
+		background-color: #78e4d4;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		font-family: $main-font-content;
+		font-weight: bold;
+		text-align: center;
+		color: #fff;
+		font-size: 25px;
+		padding-top: 20px;
+		line-height: 20px;
+		span {
+			font-family: $main-font-content;
+			text-align: center;
+			color: #fff;
+			font-style: italic;
+			font-weight: 400;
+			font-size: 17px;
+		}
+	}
+}
+.latest-blog-item2 {
+	background-image: url(../img/blog2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width: 385px;
+	height: 240px;
+}
+.latest-blog-item3 {
+	background-image: url(../img/blog3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width: 385px;
+	height: 240px;
+}
 
 
 
