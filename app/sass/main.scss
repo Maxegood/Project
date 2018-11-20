@@ -967,8 +967,10 @@ nav ul li:first-child a {
 .footer-container {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: start;
+	justify-content: space-between;
 	margin-top: 70px;
+	padding-bottom: 70px;
+	border-bottom: 1px solid #cecece;
 	.footer-content {
 		font-family: $main-font-content;
 		width: 33%;
@@ -1041,7 +1043,7 @@ nav ul li:first-child a {
 		.footer-blog-title {
 			text-transform: uppercase;
 			font-weight: bold;
-			margin-bottom: 30px;
+			margin-bottom: 22px;
 		}
 		.footer-blog-items {
 			display: flex;
@@ -1051,7 +1053,7 @@ nav ul li:first-child a {
 				display: flex;
 				flex-wrap: nowrap;
 				align-items: center;
-				margin-top: 5px;
+				margin-top: 11px;
 				img {
 					width: 130px;
 					height: 90px;
@@ -1077,8 +1079,44 @@ nav ul li:first-child a {
 			}
 		}
 	}
+	.footer-instagram {
+		font-family: $main-font-content;
+		width: 23%;
+		.footer-instagram-title {
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: 33px;
+		}
+		.footer-instagram-items {
+			display: flex;
+			flex-wrap: wrap;
+			line-height: 0;
+			.footer-instagram-item {
+				margin: 0 3px 3px 0;
+			}
+			a {
+				text-decoration: none;
+				color: #cecece;
+				font-style: italic;
+				line-height: normal;
+				font-size: 12px;
+				margin-top: 11px;
+			}
+		}
+	}
 }
-
+.footer-copyright {
+	text-align: center;
+	font-family: $main-font-content;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+	span {
+		color: #ffa4ac;
+	}
+}
 
 
 

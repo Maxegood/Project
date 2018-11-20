@@ -1318,11 +1318,13 @@ nav ul li:first-child a {
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #cecece;
 }
 
 .footer-container .footer-content {
@@ -1440,7 +1442,7 @@ nav ul li:first-child a {
 .footer-container .footer-blog .footer-blog-title {
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 
 .footer-container .footer-blog .footer-blog-items {
@@ -1470,7 +1472,7 @@ nav ul li:first-child a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5px;
+  margin-top: 11px;
 }
 
 .footer-container .footer-blog .footer-blog-items .footer-blog-item img {
@@ -1503,4 +1505,52 @@ nav ul li:first-child a {
   color: #cecece;
   font-size: 14px;
   font-style: italic;
+}
+
+.footer-container .footer-instagram {
+  font-family: "Roboto", sans-serif;
+  width: 23%;
+}
+
+.footer-container .footer-instagram .footer-instagram-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+
+.footer-container .footer-instagram .footer-instagram-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  line-height: 0;
+}
+
+.footer-container .footer-instagram .footer-instagram-items .footer-instagram-item {
+  margin: 0 3px 3px 0;
+}
+
+.footer-container .footer-instagram .footer-instagram-items a {
+  text-decoration: none;
+  color: #cecece;
+  font-style: italic;
+  line-height: normal;
+  font-size: 12px;
+  margin-top: 11px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-copyright span {
+  color: #ffa4ac;
 }
