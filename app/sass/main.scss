@@ -753,7 +753,6 @@ nav ul li:first-child a {
 }
 
 .happy_clients {
-	height: 700px;
 	background-image: url(../img/otz_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -767,7 +766,6 @@ nav ul li:first-child a {
 	left: 0;
 	top: 0;
 	z-index: 0;
-	position: absolute;
 }
 .happy_clients-items {
 	display: flex;
@@ -816,11 +814,13 @@ nav ul li:first-child a {
 .latest-blog-items {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 
 }
 .latest-blog-item1,.latest-blog-item2,.latest-blog-item3 {
 	font-family: $main-font-content;
 	width: 32%;
+	margin-top: 20px;
 	.latest-blog-item-bg {
 		background-image: url(../img/blog.jpg);
 		background-repeat: no-repeat;
