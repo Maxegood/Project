@@ -1198,6 +1198,14 @@ nav ul li:first-child a {
   margin-top: 12px;
 }
 
+.latest-blog-item-content .latest-blog-item-content-title a {
+  color: #333;
+}
+
+.latest-blog-item-content .latest-blog-item-content-title a:hover {
+  text-decoration: underline;
+}
+
 .latest-blog-item-content span {
   margin-top: 10px;
   padding-bottom: 15px;
@@ -1493,18 +1501,21 @@ nav ul li:first-child a {
   margin-left: 20px;
 }
 
-.footer-container .footer-blog .footer-blog-items .footer-blog-item .footer-blog-item-content p {
+.footer-container .footer-blog .footer-blog-items .footer-blog-item .footer-blog-item-content a {
   font-weight: bold;
   line-height: 20px;
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: 14px;
+  color: #333;
 }
 
-.footer-container .footer-blog .footer-blog-items .footer-blog-item .footer-blog-item-content span {
+.footer-container .footer-blog .footer-blog-items .footer-blog-item .footer-blog-item-content a span {
   color: #cecece;
   font-size: 14px;
   font-style: italic;
+  text-transform: none;
+  font-weight: 300;
 }
 
 .footer-container .footer-instagram {
@@ -1533,7 +1544,7 @@ nav ul li:first-child a {
   margin: 0 3px 3px 0;
 }
 
-.footer-container .footer-instagram .footer-instagram-items a {
+.footer-container .footer-instagram a {
   text-decoration: none;
   color: #cecece;
   font-style: italic;
